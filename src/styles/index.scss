@@ -11,15 +11,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-h1{
-    text-align: center;
+.support{
+    background:black;
+    height: 80px;
+    width: 30px;
+    margin: 0 auto;
 }
 
-.todoList{
-    margin: 50px auto;
-    width:600px;
+.container{
+    background: black;
+    width:150px;
+    border-radius:5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.hide{
-    visibility: hidden;
+.red-light{
+    background: red;
+    border-radius: 50%;
+    height: 110px;
+    width: 120px;
+    margin:10px auto;
+   
+}
+.yellow-light{
+    background:yellow;
+    border-radius: 50%;
+    height: 110px;
+    width: 120px;
+    margin:10px auto;
+}
+.green-light{
+    background: green;
+    border-radius: 50%;
+    height: 110px;
+    width: 120px;
+    margin:10px auto;
+}
+.selected{
+    box-shadow: 0 0 10px 10px white;
 }
